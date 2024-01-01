@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  font-family: var(--font2);
+  height: 90px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  height: 30px;
+  /* background-color: rgb(187, 162, 162); */
+  display: flex;
+  height: 300px;
+  /* padding: 20px; */
+  position: relative;
+  
+  
+
+}
+.content::after{
+  content: "";
+  background-image: url('../img/art1.jpg');
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  
+}
+.footer {
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  flex-direction: column;
+}
+.footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.nav-left ul{
+    display: flex;
+    margin: 60px;
+
+}
+.nav-left span{
+    font-size:larger;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px;
+    font-family: var(--font1);
+ 
+
+}
+.nav-left ul li a:hover{
+  color: rgb(75, 113, 150);
+  font-weight: bolder;
+  
+  
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    /* transition: all 0.3s ease-in-out; */
+}
+.form-input{
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0px 13px;
+    font-family: var(--font2);
+
+}
+.btn{
+
+    padding: 4px 16px;
+    border: 3px solid;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.content-left{
+    font-family: var(--font2);
+    
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+
+   
+}
+.content-right{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 200px;
+    height: 300px;
+    
+}
+.btn:hover{
+  color:white;
+  background-color: black;
+
+}
+.home-article-img img{
+  width: 230px;
+    
+}
+.home-article{
+  display: flex;
+  padding: 20px;
+
+  
+}
+.home-article-content{
+  align-self: center;
+  padding: 30px;
+}
+.home-articles{
+  margin-top: 30px;
+  background-color: rgba(201, 198, 198, 0.212);
+}

@@ -1,0 +1,34 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora:ital@1&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1:'Lora', serif;
+    --font2:'Libre Baskerville', serif;
+
+}
+.max-width-1{
+    max-width: 80vw;
+
+}
+.max-width-2{
+    max-width: 65vw;
+    
+}
+.m-auto{
+    margin: auto;
+}
+
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.my-2{
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+}
